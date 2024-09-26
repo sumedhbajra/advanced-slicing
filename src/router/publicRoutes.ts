@@ -33,8 +33,28 @@ const PublicRoutes: CustomRoute[] = [
   },
   {
     path: '/about',
-    component: () => import('@/views/test-page.vue'),
+    component: () => import('@/views/AboutPage.vue'),
     name: 'About'
+  },
+  {
+    path: '/sub-categories',
+    component: () => import('@/views/SubCategory.vue'),
+    name: 'List of Sub-Categories'
+  },
+  {
+    path: '/list-of-products',
+    component: () => import('@/views/ListOfProducts.vue'),
+    name: 'List of Products'
+  },
+  {
+    path: '/category-list',
+    component: () => import('@/views/CategoryList.vue'),
+    name: 'Category List'
+  },
+  {
+    path: '/news',
+    component: () => import('@/views/News.vue'),
+    name: 'News'
   }
 ]
 

@@ -1,3 +1,4 @@
+import { AspectRatio } from 'radix-vue'
 import animate from 'tailwindcss-animate'
 
 /** @type {import('tailwindcss').Config} */
@@ -78,6 +79,9 @@ export const theme = {
         from: { height: 'var(--radix-collapsible-content-height)' },
         to: { height: 0 }
       }
+    },
+    aspectRatio: {
+      header: '4.9'
     },
     animation: {
       'accordion-down': 'accordion-down 0.2s ease-out',

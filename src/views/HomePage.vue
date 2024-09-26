@@ -13,5 +13,6 @@
 import Slider from '@/components/pages/home/slider.vue'
 import Heading from '@/components/utilities/Heading.vue'
 import HeadingUnderline from '@/components/utilities/HeadingUnderline.vue'
+
 import { PhClockClockwise, PhArrowCircleRight } from '@phosphor-icons/vue'
 </script>
